@@ -1,0 +1,156 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.left {
+    min-width: 400px;
+    margin-left: 5%;
+}
+
+.right {
+    margin-right: 5%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+/* .bilde1 {
+    width: 20%;
+}
+.bilde2 {
+    width: 20%;
+    margin-top: 40px;
+}
+.bilde3 {
+    width: 20%;
+}
+.bilde4 {
+    width: 20%;
+    margin-top: 40px;
+}
+.bilde5 {
+    width: 20%;
+}
+.bilde6 {
+    width: 20%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+} */
+
+.bilder {
+    margin: 2%;
+}
+.imgdiv {
+    display: flex;
+    /* margin: 8%; */
+}
+
+.imgdiv img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.vtekst {
+    writing-mode: vertical-rl;
+    font-size: 12px;
+    margin-left: 1%;
+}
+
+.bilde2 {
+    margin-top: 50px;
+}
+.bilde4 {
+    margin-top: 50px;
+}
+.bilde6 {
+    margin-top: 50px;
+}
+
+
+@media (max-width: 880px) {
+    .nav1 {
+        flex-direction: column;
+    }
+    .right {
+        margin-left: 5%;
+        margin-top: 10px;
+    }
+    .bilde2 {
+        margin-top: 20px;
+    }
+    .bilde4 {
+        margin-top: 20px;
+    }
+    .bilde6 {
+        margin-top: 20px;
+    }
+}
+
+/* 
+@media (max-width: 680px) {
+    .nav1 {
+        flex-direction: column;
+    }
+    .right {
+        margin-top: 40px;
+        margin-left: 10px;
+    }
+    .left {
+        margin-left: 10px;
+    }
+    .container {
+        flex-direction: column;
+    }
+    .bilde1 {
+        border: 1px solid red;
+        width: 80%;
+        margin-top: 10px;
+    }
+    .bilde2 {
+        border: 1px solid red;
+        width: 80%;
+        margin-top: 10px;
+    }
+    .bilde3 {
+        border: 1px solid red;
+        width: 80%;
+        margin-top: 10px;
+    }
+    .bilde4 {
+        border: 1px solid red;
+        width: 80%;
+        margin-top: 10px;
+    }
+    .bilde5 {
+        border: 1px solid red;
+        width: 80%;
+        margin-top: 10px;
+    }
+    .bilde6 {
+        border: 1px solid red;
+        width: 80%;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    .imgdiv img {
+        width: 80%;
+    }
+}
+
+@media (max-width: 680px) {
+
+} */
